@@ -45,10 +45,13 @@ main {
   color: white;
 }
 
-.main-header__item a:hover,
 .main-header__item a:active,
 .main-header__item a.active {
   color: #ffeb3b;
+}
+
+.main-header__item a:hover{
+  color: red;
 }
 
 .grid {
